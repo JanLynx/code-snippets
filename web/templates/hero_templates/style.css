@@ -43,5 +43,10 @@
 }
 
 img {
-    transform: scale(80%);
+    position: relative;
+    max-width: 70% !important;
+    float: right;
+    /* left: 50%;
+    transform: translateX(-50%); */
+    
 }
