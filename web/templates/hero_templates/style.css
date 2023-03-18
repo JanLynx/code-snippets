@@ -1,0 +1,47 @@
+@media (max-width: 575.98px) {
+    .hide-till-sm {
+        display: none;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .hide-till-md {
+        display: none;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .hide-till-lg {
+        display: none;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .hide-till-xl {
+        display: none;
+    }
+}
+
+@media (max-width: 1399.98px) {
+    .hide-till-xxl {
+        display: none;
+    }
+}
+
+.template-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, .1), inset 0 0.125em 0.5em rgba(0, 0, 0, .15);
+}
+
+.hero-0 {
+    background-image: url('./images/lum3n--RBuQ2PK_L8-unsplash.jpg');
+    background-size: cover;
+    background-position-y: bottom;
+}
+
+img {
+    transform: scale(80%);
+}
