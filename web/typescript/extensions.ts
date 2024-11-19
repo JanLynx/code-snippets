@@ -1,5 +1,16 @@
 export class Extensions {
 
+  /**
+   * Compares to objects. Returns true if they are equal
+   * 
+   * Hint: Arrays are only equal if they have the same order. While objects have specific keys
+   * which can be compared, an array always has the keys 0 - n. This function assumes that
+   * a changed order of an array makes it not equal anymore.
+   * 
+   * @param objA the object A to be compared
+   * @param objB the object B to be compared
+   * @returns if objA is equal to objB
+   */
   public static compareObj(objA: any, objB: any): boolean {
     if (objA === objB) {
         return true;
